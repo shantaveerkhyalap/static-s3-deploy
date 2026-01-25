@@ -11,4 +11,4 @@ jobs:
       - name: connecting to env
       env:
         APP_ENV: "test"
-        run: echo "app is connecting to $APP_ENV"
+        run: echo "app is connecting to $APP_ENV'

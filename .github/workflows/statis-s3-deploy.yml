@@ -14,7 +14,7 @@ jobs:
           aws-region: us-east-1
       - name: Code Static code to s3
         run: |
-          aws s3 sync ./ s3://static-s3-deploy/ \ 
+          aws s3 sync ./ s3://static-s3-deploy/ \
           --exclude "*" \
           --include "index.html"
       
